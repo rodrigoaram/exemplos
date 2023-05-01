@@ -1,0 +1,94 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    border:none;
+}
+
+body{
+    background-color: #CCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px
+}
+
+.post{
+    width:800px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items:flex-start;
+    gap:10px
+}
+
+.post img{
+    border-radius: 50%;
+    border:2px solid #EEE
+}
+
+.post .name{    
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.post .text time{
+    font-size: 0.8rem
+}
+
+.post .message{
+    text-align: justify;
+    margin-top:20px
+} 
+
+
+#send-box{
+    width: 800px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#send-box label{
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    margin-bottom:5px
+}
+
+#send-box textarea{
+    height: 70px;
+    padding: 5px;
+    border:1px solid #333;
+    margin-bottom: 10px
+}
+
+#send-box button{
+    background-color: #333;
+    color: #FFF;
+    padding:10px;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    float: right;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all 200ms;
+}
+#send-box button:hover{
+    background-color: #444;
+}
+
+#send-box button svg{
+    stroke:#FFF;
+}
